@@ -1,0 +1,53 @@
+ ----------------------------------------------------------------
+/  1. Importing the project into Eclipse                        /
+----------------------------------------------------------------
+
+- Load Eclipse
+- Select this folder as the Workspace
+- On Package Explorer, right button and then "Import"
+- General/Existing Projects into Workspace/Next
+- Browse... this folder
+- Must appear four projects "MarvinEditor", "MarvinFramework", "MarvinPlugins" and "MarvinSamples". Click on Finish.
+
+For Each project:
+
+- Main Menu/Project/Properties/Java Build Path/Libraries/JMF and then "Edit".
+- Variable/New/, Name:"JMF_PATH", Path: path to jmf.jar (e.g. C:/Program Files/JMF2.1.1e/lib/jmf.jar).
+
+The JMF (Java Media Framework) is only used for video capturing support. If you do not want to use it, simply go to Libraries again (each project) and remove "JMF".
+
+Now the projects must not contain any error.
+
+
+ ----------------------------------------------------------------
+/  2. Resources                                                 /
+----------------------------------------------------------------
+Marvin Developers dicussion group:
+https://groups.google.com/group/marvin-project
+
+Take a look at the video showing how configure the development environment:
+http://www.youtube.com/watch?v=fHIubjitoHU
+
+Tutorials:
+http://marvinproject.sourceforge.net/en/tutorials.html
+
+Available plug-ins:
+http://marvinproject.sourceforge.net/en/plugins.html
+
+Youtube Channel:
+http://www.youtube.com/user/marvinproject
+
+Downloads:
+http://marvinproject.sourceforge.net/en/download.html
+
+ ----------------------------------------------------------------
+/  3. Recommend this project                                    /
+----------------------------------------------------------------
+
+Do you like Marvin? Recommend it:
+http://sourceforge.net/projects/marvinproject/reviews/
+
+
+
+Marvin Framework 2012
+www.marvinproject.org
